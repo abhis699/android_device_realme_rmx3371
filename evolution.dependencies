@@ -1,0 +1,18 @@
+[
+  {
+    "remote"      : "github",
+    "repository"  : "abhis699/hardware_oplus_kona",
+    "target_path" : "hardware/oplus"
+  },
+  {
+    "remote"      : "github",
+    "branch"      : "AGNi-AOSP",
+    "repository"  : "abhis699/kernel_realme_sm8250",
+    "target_path" : "kernel/oneplus/sm8250"
+  },
+  {
+    "remote"      : "github",
+    "repository"  : "abhis699/packages_apps_OPlusExtras",
+    "target_path" : "packages/apps/OPlusExtras"
+  }
+]
