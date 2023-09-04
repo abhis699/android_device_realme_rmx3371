@@ -60,6 +60,9 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/updatable_apex.mk)
 PRODUCT_PACKAGES += \
     android.hardware.atrace@1.0-service
 
+# Audio LVIM
+TARGET_HAS_AUDIO_LVIMFS := true
+
 # Audio
 PRODUCT_PACKAGES += \
     android.hardware.audio@6.0-impl \
@@ -356,10 +359,6 @@ PRODUCT_PACKAGES += \
     libOmxVdec \
     libOmxVenc \
     libstagefrighthw
-
-# OPlusExtras
-PRODUCT_PACKAGES += \
-    OPlusExtras
 
 # Init
 PRODUCT_PACKAGES += \
