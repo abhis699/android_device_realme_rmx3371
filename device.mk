@@ -368,6 +368,10 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     init.oplus.perf.rc
 
+# OPlusExtras
+PRODUCT_PACKAGES += \
+    OPlusExtras
+
 # Overlays
 $(call inherit-product, hardware/oplus/overlay/qssi/qssi.mk)
 
