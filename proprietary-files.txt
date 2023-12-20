@@ -1073,6 +1073,7 @@ odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so
 odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0-impl.so
 odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so
 odm/lib64/vendor.dolby_v3_6.hardware.dms360@2.0.so
+odm/lib/soundfx/libhaptic_effect.so
 
 # DPM
 system_ext/bin/dpmd
