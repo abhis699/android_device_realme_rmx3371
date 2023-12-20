@@ -29,9 +29,6 @@
     <bool name="config_show_smooth_display">true</bool>
     <bool name="config_show_mobile_plan">false</bool>
 
-    <!-- Smart Charging -->
-    <bool name="config_supportSmartCharging">true</bool>
-
     <!-- The Enrollment Progress bar for UDFPS sensor in pixels -->
     <integer name="config_udfpsEnrollProgressBar" translatable="false">94</integer>
 </resources>
