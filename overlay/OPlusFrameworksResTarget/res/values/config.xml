@@ -454,11 +454,11 @@
          when adapting to brighter or darker environments.  This parameter controls how quickly
          brightness changes occur in response to an observed change in light level that exceeds the
          hysteresis threshold. -->
-    <integer name="config_autoBrightnessBrighteningLightDebounce">2000</integer>
-    <integer name="config_autoBrightnessDarkeningLightDebounce">2500</integer>
+    <integer name="config_autoBrightnessBrighteningLightDebounce">1500</integer>
+    <integer name="config_autoBrightnessDarkeningLightDebounce">1500</integer>
 
     <!-- Light sensor event rate in milliseconds for automatic brightness control. -->
-    <integer name="config_autoBrightnessLightSensorRate">150</integer>
+    <integer name="config_autoBrightnessLightSensorRate">200</integer>
 
     <!-- The type of the light sensor to be used by the display framework for things like
          auto-brightness. If unset, then it just gets the default sensor of type TYPE_LIGHT. -->
@@ -525,7 +525,7 @@
          non-zero. -->
     <integer name="config_defaultPeakRefreshRate">120</integer>
 
-<!-- Whether devices suports in-display fingerprint when screen is off -->
+    <!-- Whether devices suports in-display fingerprint when screen is off -->
     <bool name="config_supportsScreenOffUdfps">true</bool>
 
     <!-- Defines the sysfs attribute path used by the device
@@ -537,10 +537,13 @@
 
     <!-- Pocket Lock -->
     <bool name="config_pocketModeSupported">true</bool>
+
+    <!-- Allow automatic adjusting of the screen brightness while dozing in low power state. -->
+    <bool name="config_allowAutoBrightnessWhileDozing">true</bool>
     
     <!-- Default color temperature, in Kelvin, to tint the screen when Night display is
          activated. -->
-    <integer name="config_nightDisplayColorTemperatureDefault">2339</integer>
+    <integer name="config_nightDisplayColorTemperatureDefault">3339</integer>
 
     <!-- Default value for proximity check on screen wake
      NOTE ! - Enable for devices that have a fast response proximity sensor (ideally < 300ms)-->
