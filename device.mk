@@ -360,6 +360,9 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     OPlusExtras
 
+# OPlusCamera
+$(call inherit-product-if-exists, vendor/oplus/camera/opluscamera.mk)
+
 # Init
 PRODUCT_PACKAGES += \
     init.oplus.perf.rc
