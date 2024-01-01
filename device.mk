@@ -84,6 +84,7 @@ PRODUCT_PACKAGES += \
     libsndmonitor \
     libspkrprot \
     libssrec \
+    libstdc++_vendor \
     libvolumelistener
 
 AUDIO_HAL_DIR := hardware/qcom-caf/sm8250/audio

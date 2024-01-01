@@ -120,6 +120,9 @@ function blob_fixup() {
         vendor/lib/libgui1_vendor.so)
             "${PATCHELF}" --replace-needed "libui.so" "libui-v30.so" "${2}"
             ;;
+        odm/lib64/libAncSegmentSdk.so | odm/lib64/libstblur_capture_api.so | odm/lib64/libAncHumanSegFigureFusion.so | odm/lib64/libaps_frame_registration.so | odm/lib64/libAncHumanRetain.so | odm/lib/liblvimfs_wrapper.so | odm/lib64/libYTCommon.so | odm/lib64/libAncSegBaseSdk.so | odm/lib64/libCOppLceTonemapAPI.so | odm/lib64/libcvface_api.so)
+            "${PATCHELF}" --replace-needed "libstdc++.so" "listdc++_vendor.so" "${2}"
+            :;
     esac
 }
 
